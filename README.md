@@ -1,1 +1,23 @@
 # proto-v2max
+{
+  "name": "proto-v2max",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "yaml": "2.5.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.66",
+    "typescript": "5.4.5"
+  }
+}
